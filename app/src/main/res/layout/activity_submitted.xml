@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Submitted"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/success_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Record Has Been Submitted Successfully!"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="italic"
+        android:layout_marginBottom="50dp"/>
+
+    <ImageView
+        android:src="@drawable/tick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:maxHeight="300dp"
+        android:maxWidth="300dp"
+        android:layout_below="@id/success_msg"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
